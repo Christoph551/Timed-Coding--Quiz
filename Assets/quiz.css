@@ -160,7 +160,7 @@
 
 #Correct-Answer-Feedback {
     display: flex;
-    color: chartreuse;
+    color: rgb(32, 32, 32);
     font-size: 30px;
     margin-top: 10px;
     justify-content: center;
