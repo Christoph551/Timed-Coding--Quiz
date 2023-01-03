@@ -1,0 +1,42 @@
+:root {
+    --border-style: thin solid #999;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(32, 32, 32);
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+    border-bottom: var(--border-style);
+}
+
+.View-High-Scores {
+    display: flex;
+    color: rgb(8, 145, 224);
+    font-size: 50px;
+    font-weight: bold;
+    margin: 30px 0px 30px 100px;
+}
+
+.View-High-Scores:hover {
+    color: white;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.Timer {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-between;
+}
