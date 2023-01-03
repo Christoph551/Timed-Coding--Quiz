@@ -15,12 +15,30 @@
         <h1>Chris' Coding Quiz</h1>
     </header>
     <section class="Cover">
-        <div>     <!--Need to add deployed site's URL to href-->
+        <div class="Timer">
+            <h2>Current Score: 100pts</h2>
+        </div>
+        <div>     <!--Need to add deployed site's Leaderboard URL to href-->
             <h2 href="" src="/leaderboard.html" target="_blank" class="View-High-Scores">View High Scores</h2>
         </div>
-        <div class="Timer">
-            <h2>Time Left: </h2>
-        </div>
     </section>
+<main class="Container">
+    <p id="Question-Number">
+        Question #  <!--May need a span to target with JS-->
+    </p>
+
+    <p id="Question-Display">
+        Which of the following cannot be used in JavaScript?
+    </p>
+
+    <section class="Buttons">
+        <p id="Button1" href="" src="./Assets/script.js"> => </p>
+        <p id="Button2" href="" src="./Assets/script.js"> === </p>
+        <p id="Button3" href="" src="./Assets/script.js"> || </p>
+        <p id="Button4" href="" src="./Assets/script.js"> =< </p>
+    </section>
+    <p id="Next-Button">Next Question</p>
+    <p id="Correct-Answer-Feedback">Correct!</p>
+</main>
 </body>
 </html>

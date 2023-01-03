@@ -15,18 +15,30 @@
     font-size: 100px;
     font-weight: bolder;
     margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
     padding-bottom: 30px;
     border-bottom: var(--border-style);
 }
 
+.Cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 .View-High-Scores {
     display: flex;
-    color: rgb(8, 145, 224);
-    font-size: 50px;
-    font-weight: bold;
-    margin: 30px 0px 30px 100px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 80px;
+    font-weight: bolder;
+    color: blue;
+    border-bottom: var(--border-style);
+    padding-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .View-High-Scores:hover {
@@ -37,6 +49,138 @@
 
 .Timer {
     display: flex;
-    flex-direction: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Container {
+    width: 1000px; height: 500px; border: 2px solid grey; margin: auto;
+}
+
+#Question-Number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-bottom: var(--border-style);
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Question-Display {
+    display: flex;
+    justify-content: center;
+    color:blue;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+.Buttons {
+    display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#Button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; height: 40px; border: 1px solid black; margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+} 
+
+#Button1:hover {
+    cursor: pointer;
+    opacity: .75;
+    background-color: grey;
+}
+
+#Button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; height: 40px; border: 1px solid black; margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+} 
+
+#Button2:hover {
+    cursor: pointer;
+    opacity: .75;
+    background-color: grey;
+}
+
+#Button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; height: 40px; border: 1px solid black; margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+} 
+
+#Button3:hover {
+    cursor: pointer;
+    opacity: .75;
+    background-color: grey;
+}
+
+#Button4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; height: 40px; border: 1px solid black; margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+} 
+
+#Button4:hover {
+    cursor: pointer;
+    opacity: .75;
+    background-color: grey;
+}
+
+#Correct-Answer-Feedback {
+    display: flex;
+    color: chartreuse;
+    font-size: 30px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Next-Button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: var(--border-style);
+    background-color: black;
+    color: blue;
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: 740px;
+}
+
+#Next-Button:hover {
+    cursor: pointer;
+    color: white;
+    opacity: .75;
 }
