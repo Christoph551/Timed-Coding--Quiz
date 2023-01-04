@@ -17,11 +17,7 @@ let incorrect = function () {
 
 
 
-// document.getElementById("Button1").addEventListener("click", incorrectAnswer);
-// function incorrectAnswer() {
-//     document.getElementById("Inorrect-Answer-Feedback").innerHTML = "Incorrect!";
-//     document.getElementById("Inorrect-Answer-Feedback").style.color = "red"
-//     console.log("Incorrect");
-// }
-
+document.getElementById("Button1").addEventListener("click", incorrect);
+document.getElementById("Button2").addEventListener("click", incorrect);
+document.getElementById("Button3").addEventListener("click", incorrect);
 document.getElementById("Button4").addEventListener("click", correct);
