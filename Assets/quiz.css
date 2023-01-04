@@ -34,7 +34,7 @@
     flex-direction: column;
     font-size: 80px;
     font-weight: bolder;
-    color: blue;
+    color:cornflowerblue;
     border-bottom: var(--border-style);
     padding-bottom: 30px;
     margin-left: 100px;
@@ -76,7 +76,7 @@
 #Question-Display {
     display: flex;
     justify-content: center;
-    color:blue;
+    color:cornflowerblue;
     font-size: 40px;
     font-weight: 500;
     margin: 40px;
@@ -173,7 +173,7 @@
     align-items: center;
     border: var(--border-style);
     background-color: black;
-    color: blue;
+    color:cornflowerblue;
     font-size: 40px;
     margin-right: 20px;
     margin-left: 740px;

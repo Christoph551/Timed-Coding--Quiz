@@ -1,18 +1,21 @@
 // Need to have a function display "Correct" in green font or "Incorrect in red font based off of the user's input."
+const right = 0;
+const wrong = 1;
+let answer = [];
 
-const correct = true;
-const incorrect = false;
-let Button1 = 0;
-let Button2 = 1;
-let Button3 = 2;
-let Button4 = 3;
-
-function correctAnswer() {
-    if (correct) {
+let correct = function () {
     document.getElementById("Correct-Answer-Feedback").innerHTML = "Correct!";
     document.getElementById("Correct-Answer-Feedback").style.color = "green";
-    }
+    console.log("Correct!");
 } 
+
+let incorrect = function () {
+    document.getElementById("Correct-Answer-Feedback").innerHTML = "Incorrect!";
+    document.getElementById("Correct-Answer-Feedback").style.color = "red";
+    console.log("Incorrect!");
+} 
+
+
 
 // document.getElementById("Button1").addEventListener("click", incorrectAnswer);
 // function incorrectAnswer() {
@@ -21,4 +24,4 @@ function correctAnswer() {
 //     console.log("Incorrect");
 // }
 
-document.getElementById("Button4").addEventListener("click", correctAnswer);
+document.getElementById("Button4").addEventListener("click", correct);
