@@ -21,6 +21,13 @@
     border-bottom: var(--border-style);
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .Cover {
     display: flex;
     flex-direction: column;
@@ -56,6 +63,16 @@
     margin-bottom: 30px;
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#startBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 50px;
 }
 
 .Container {
