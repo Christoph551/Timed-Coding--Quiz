@@ -35,7 +35,7 @@ body {
     margin-bottom: 50px;
 }
 
-.View-High-Scores {
+#View-High-Scores {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -43,7 +43,7 @@ body {
     font-weight: bolder;
     color:cornflowerblue;
     border-bottom: var(--border-style);
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-left: 100px;
     margin-right: 100px;
 }
